@@ -191,6 +191,7 @@ p {
     overflow: hidden;
     box-shadow: 0 0 4px black;
     border-radius: 10px;
+    margin-bottom: 1rem;
 }
 
 .work:hover {
@@ -207,7 +208,7 @@ p {
     color: var(--black);
     opacity: 0.7;
 
-    margin-bottom: 0.8rem;
+    margin-bottom: 0.4rem;
 }
 
 .work_title {
@@ -218,4 +219,9 @@ p {
     font-weight: bold;
     text-transform: uppercase;
     color: var(--black);
+}
+
+.about_inner {
+    display: flex;
+    justify-content: space-between;
 }
