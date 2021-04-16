@@ -177,6 +177,10 @@ p {
     color: var(--black);
 }
 
+.works {
+    margin-bottom: 7rem;
+}
+
 .portfolio {
     display: flex;
     justify-content: space-between;
