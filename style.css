@@ -92,3 +92,55 @@ p {
     border-bottom: 2px solid black;
     padding: 0 0 4px;
 }
+
+.intro_inner {
+    display: flex;
+    padding-top: 6.6rem;
+    padding-bottom: 8rem;
+    position: relative;
+
+    border-bottom: 1px solid black;
+}
+
+.intro_subtitle {
+    color: var(--black);
+    font-weight: 200;
+    font-size: 2rem;
+}
+
+.intro_title {
+    color: var(--black);
+    font-weight: bold;
+    font-size: 3rem;
+    margin-bottom: 5px;
+}
+
+.intro_text {
+    color: var(--black);
+    opacity: 0.7;
+    font-size: 1.2rem;
+}
+
+.social {
+    margin-top: 2rem;
+    margin-bottom: 2.5rem;
+    display: flex;
+}
+
+.social_link {
+    margin-right: 0.75rem;
+    text-decoration: none;
+}
+
+.social_link:hover {
+    transform: translateY(-5px);
+}
+
+.btn {
+    display: inline-block;
+    vertical-align: top;
+    width: 12.5rem;
+
+    border: 1px solid black;
+    border-radius: 1.8rem;
+}
