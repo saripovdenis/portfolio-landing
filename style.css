@@ -34,7 +34,13 @@ p {
     margin: 0 auto;
 }
 
-.bold {
-    font-weight: bold;
-    color: var(--gray);
+.header {
+    padding: 1.2rem 0;
+    position: relative;
+}
+
+.header_inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
