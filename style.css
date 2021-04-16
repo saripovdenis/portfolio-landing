@@ -44,3 +44,11 @@ p {
     justify-content: space-between;
     align-items: center;
 }
+
+.user_avatar {
+    border-radius: 50%;
+}
+
+.user-content {
+    padding-left: 9px;
+}
