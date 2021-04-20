@@ -224,6 +224,7 @@ p {
 .about_inner {
     display: flex;
     flex-wrap: wrap;
+    margin-bottom: 7rem;
 }
 
 .about_photo {
